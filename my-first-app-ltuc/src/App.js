@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class App extends React {
+class App extends Component.React {
  
-  return(){
+  render(){
+    return(
   <div>
    <p>abdelmajed</p>
+    </div>
     
-  </div>
-  }
+  )}
 }
 
   
