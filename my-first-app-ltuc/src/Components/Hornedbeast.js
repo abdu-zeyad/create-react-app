@@ -29,7 +29,7 @@ incrementNumOfClicks = () => {
                 <Card.Body>
                     <Card.Title> {this.props.title}</Card.Title>
                     <Card.Text>
-                    Number of Favorit : {this.state.numOfclicks}
+                    💙 {this.state.numOfclicks}
                     </Card.Text>
                     <p className='description'>description: {this.props.description}</p>
                 </Card.Body>
