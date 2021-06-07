@@ -1,7 +1,16 @@
 import React from 'react';
 import Hornedbeast from './Hornedbeast';
-
+import data from './data.json'
 class Main extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+        title: data,
+        description: data,
+        url: data,
+
+    }
+}
   render() {
     return (
 
